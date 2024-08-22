@@ -1,0 +1,31 @@
+div.msg {
+    background-color: #ced8f6;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box; /* Garante que o padding esteja incluído na largura do input */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.conteudo {
+    width: 500px;
+    height: 100px; /* Limita a largura máxima da div */
+    padding: 20px;
+    text-align: center; /* Centraliza o texto dentro da div */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra */
+    border-radius: 10px; /* Bordas arredondadas */
+    background-color: #f9f9f9; /* Cor de fundo clara */
+}
